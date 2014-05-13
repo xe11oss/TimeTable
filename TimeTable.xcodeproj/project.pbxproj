@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67C113851922133300901CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C113841922133300901CA0 /* Foundation.framework */; };
+		67C113871922133300901CA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C113861922133300901CA0 /* CoreGraphics.framework */; };
+		67C113891922133300901CA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C113881922133300901CA0 /* UIKit.framework */; };
+		67C1138F1922133300901CA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67C1138D1922133300901CA0 /* InfoPlist.strings */; };
+		67C113911922133300901CA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C113901922133300901CA0 /* main.m */; };
+		67C113951922133300901CA0 /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C113941922133300901CA0 /* TTAppDelegate.m */; };
+		67C113981922133300901CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C113961922133300901CA0 /* Main.storyboard */; };
+		67C1139B1922133300901CA0 /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C1139A1922133300901CA0 /* TTViewController.m */; };
+		67C1139D1922133300901CA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C1139C1922133300901CA0 /* Images.xcassets */; };
+		67C113A41922133300901CA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C113A31922133300901CA0 /* XCTest.framework */; };
+		67C113A51922133300901CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C113841922133300901CA0 /* Foundation.framework */; };
+		67C113A61922133300901CA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C113881922133300901CA0 /* UIKit.framework */; };
+		67C113AE1922133300901CA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67C113AC1922133300901CA0 /* InfoPlist.strings */; };
+		67C113B01922133300901CA0 /* TimeTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C113AF1922133300901CA0 /* TimeTableTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67C113A71922133300901CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67C113791922133300901CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67C113801922133300901CA0;
+			remoteInfo = TimeTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67C113811922133300901CA0 /* TimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C113841922133300901CA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67C113861922133300901CA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67C113881922133300901CA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67C1138C1922133300901CA0 /* TimeTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeTable-Info.plist"; sourceTree = "<group>"; };
+		67C1138E1922133300901CA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67C113901922133300901CA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67C113921922133300901CA0 /* TimeTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeTable-Prefix.pch"; sourceTree = "<group>"; };
+		67C113931922133300901CA0 /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
+		67C113941922133300901CA0 /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
+		67C113971922133300901CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67C113991922133300901CA0 /* TTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
+		67C1139A1922133300901CA0 /* TTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
+		67C1139C1922133300901CA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		67C113A21922133300901CA0 /* TimeTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C113A31922133300901CA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		67C113AB1922133300901CA0 /* TimeTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeTableTests-Info.plist"; sourceTree = "<group>"; };
+		67C113AD1922133300901CA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67C113AF1922133300901CA0 /* TimeTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeTableTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67C1137E1922133300901CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C113871922133300901CA0 /* CoreGraphics.framework in Frameworks */,
+				67C113891922133300901CA0 /* UIKit.framework in Frameworks */,
+				67C113851922133300901CA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C1139F1922133300901CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C113A41922133300901CA0 /* XCTest.framework in Frameworks */,
+				67C113A61922133300901CA0 /* UIKit.framework in Frameworks */,
+				67C113A51922133300901CA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67C113781922133300901CA0 = {
+			isa = PBXGroup;
+			children = (
+				67C1138A1922133300901CA0 /* TimeTable */,
+				67C113A91922133300901CA0 /* TimeTableTests */,
+				67C113831922133300901CA0 /* Frameworks */,
+				67C113821922133300901CA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67C113821922133300901CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67C113811922133300901CA0 /* TimeTable.app */,
+				67C113A21922133300901CA0 /* TimeTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67C113831922133300901CA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67C113841922133300901CA0 /* Foundation.framework */,
+				67C113861922133300901CA0 /* CoreGraphics.framework */,
+				67C113881922133300901CA0 /* UIKit.framework */,
+				67C113A31922133300901CA0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67C1138A1922133300901CA0 /* TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				67C113BC1922148300901CA0 /* ViewControllers */,
+				67C113BB1922147600901CA0 /* Externals */,
+				67C113BA1922146D00901CA0 /* CoreData */,
+				67C113B91922146300901CA0 /* Common */,
+				67C113931922133300901CA0 /* TTAppDelegate.h */,
+				67C113941922133300901CA0 /* TTAppDelegate.m */,
+				67C113961922133300901CA0 /* Main.storyboard */,
+				67C113991922133300901CA0 /* TTViewController.h */,
+				67C1139A1922133300901CA0 /* TTViewController.m */,
+				67C1139C1922133300901CA0 /* Images.xcassets */,
+				67C1138B1922133300901CA0 /* Supporting Files */,
+			);
+			path = TimeTable;
+			sourceTree = "<group>";
+		};
+		67C1138B1922133300901CA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67C1138C1922133300901CA0 /* TimeTable-Info.plist */,
+				67C1138D1922133300901CA0 /* InfoPlist.strings */,
+				67C113901922133300901CA0 /* main.m */,
+				67C113921922133300901CA0 /* TimeTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67C113A91922133300901CA0 /* TimeTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				67C113AF1922133300901CA0 /* TimeTableTests.m */,
+				67C113AA1922133300901CA0 /* Supporting Files */,
+			);
+			path = TimeTableTests;
+			sourceTree = "<group>";
+		};
+		67C113AA1922133300901CA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67C113AB1922133300901CA0 /* TimeTableTests-Info.plist */,
+				67C113AC1922133300901CA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67C113B91922146300901CA0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		67C113BA1922146D00901CA0 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		67C113BB1922147600901CA0 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		67C113BC1922148300901CA0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67C113801922133300901CA0 /* TimeTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C113B31922133300901CA0 /* Build configuration list for PBXNativeTarget "TimeTable" */;
+			buildPhases = (
+				67C1137D1922133300901CA0 /* Sources */,
+				67C1137E1922133300901CA0 /* Frameworks */,
+				67C1137F1922133300901CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTable;
+			productName = TimeTable;
+			productReference = 67C113811922133300901CA0 /* TimeTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67C113A11922133300901CA0 /* TimeTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C113B61922133300901CA0 /* Build configuration list for PBXNativeTarget "TimeTableTests" */;
+			buildPhases = (
+				67C1139E1922133300901CA0 /* Sources */,
+				67C1139F1922133300901CA0 /* Frameworks */,
+				67C113A01922133300901CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67C113A81922133300901CA0 /* PBXTargetDependency */,
+			);
+			name = TimeTableTests;
+			productName = TimeTableTests;
+			productReference = 67C113A21922133300901CA0 /* TimeTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67C113791922133300901CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___XELLOSS___";
+				TargetAttributes = {
+					67C113A11922133300901CA0 = {
+						TestTargetID = 67C113801922133300901CA0;
+					};
+				};
+			};
+			buildConfigurationList = 67C1137C1922133300901CA0 /* Build configuration list for PBXProject "TimeTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67C113781922133300901CA0;
+			productRefGroup = 67C113821922133300901CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67C113801922133300901CA0 /* TimeTable */,
+				67C113A11922133300901CA0 /* TimeTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67C1137F1922133300901CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C1139D1922133300901CA0 /* Images.xcassets in Resources */,
+				67C1138F1922133300901CA0 /* InfoPlist.strings in Resources */,
+				67C113981922133300901CA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C113A01922133300901CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C113AE1922133300901CA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67C1137D1922133300901CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C113951922133300901CA0 /* TTAppDelegate.m in Sources */,
+				67C113911922133300901CA0 /* main.m in Sources */,
+				67C1139B1922133300901CA0 /* TTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C1139E1922133300901CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C113B01922133300901CA0 /* TimeTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67C113A81922133300901CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67C113801922133300901CA0 /* TimeTable */;
+			targetProxy = 67C113A71922133300901CA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67C1138D1922133300901CA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67C1138E1922133300901CA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67C113961922133300901CA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67C113971922133300901CA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67C113AC1922133300901CA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67C113AD1922133300901CA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67C113B11922133300901CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67C113B21922133300901CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67C113B41922133300901CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTable/TimeTable-Prefix.pch";
+				INFOPLIST_FILE = "TimeTable/TimeTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67C113B51922133300901CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTable/TimeTable-Prefix.pch";
+				INFOPLIST_FILE = "TimeTable/TimeTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		67C113B71922133300901CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeTable.app/TimeTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTable/TimeTable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimeTableTests/TimeTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		67C113B81922133300901CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeTable.app/TimeTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeTable/TimeTable-Prefix.pch";
+				INFOPLIST_FILE = "TimeTableTests/TimeTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67C1137C1922133300901CA0 /* Build configuration list for PBXProject "TimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C113B11922133300901CA0 /* Debug */,
+				67C113B21922133300901CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C113B31922133300901CA0 /* Build configuration list for PBXNativeTarget "TimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C113B41922133300901CA0 /* Debug */,
+				67C113B51922133300901CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67C113B61922133300901CA0 /* Build configuration list for PBXNativeTarget "TimeTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C113B71922133300901CA0 /* Debug */,
+				67C113B81922133300901CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67C113791922133300901CA0 /* Project object */;
+}
