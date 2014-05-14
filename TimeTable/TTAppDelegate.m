@@ -43,4 +43,17 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - findViewControllerFromStroyboardIdentifier
+- (UIViewController *) findViewControllerFromStroyboardIdentifier:(NSString *)indentifierString
+{
+    UIStoryboard *storyboard;
+    
+//    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+//        storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
+//    } else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+//        storyboard = [UIStoryboard storyboardWithName:@"Main_iPad" bundle:nil];
+//    }
+    storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    return [storyboard instantiateViewControllerWithIdentifier:indentifierString];
+}
 @end

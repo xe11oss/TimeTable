@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		673438B71922F28800EF7020 /* TTInitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673438B61922F28800EF7020 /* TTInitViewController.m */; };
+		673438BB1922F3F500EF7020 /* TTSlideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673438BA1922F3F500EF7020 /* TTSlideMenuViewController.m */; };
+		673438C21922F67900EF7020 /* TTTopNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673438C11922F67900EF7020 /* TTTopNavigationViewController.m */; };
+		673438C71922FEDE00EF7020 /* TTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673438C61922FEDE00EF7020 /* TTTabBarController.m */; };
+		673438CA1923000D00EF7020 /* TTTabBarItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673438C91923000D00EF7020 /* TTTabBarItemViewController.m */; };
+		673438CD1923018200EF7020 /* TTTopNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 673438CC1923018200EF7020 /* TTTopNavigationBar.m */; };
+		673438D41923095800EF7020 /* TTTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673438D31923095800EF7020 /* TTTimeTableViewController.m */; };
+		673438D7192309AC00EF7020 /* TTAssignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673438D6192309AC00EF7020 /* TTAssignmentViewController.m */; };
+		673438DA192309E300EF7020 /* TTMemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673438D9192309E300EF7020 /* TTMemoViewController.m */; };
+		673438DD192309FA00EF7020 /* TTTimeTableSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673438DC192309FA00EF7020 /* TTTimeTableSettingViewController.m */; };
 		67C113851922133300901CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C113841922133300901CA0 /* Foundation.framework */; };
 		67C113871922133300901CA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C113861922133300901CA0 /* CoreGraphics.framework */; };
 		67C113891922133300901CA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C113881922133300901CA0 /* UIKit.framework */; };
@@ -14,7 +24,6 @@
 		67C113911922133300901CA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C113901922133300901CA0 /* main.m */; };
 		67C113951922133300901CA0 /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C113941922133300901CA0 /* TTAppDelegate.m */; };
 		67C113981922133300901CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C113961922133300901CA0 /* Main.storyboard */; };
-		67C1139B1922133300901CA0 /* TTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C1139A1922133300901CA0 /* TTViewController.m */; };
 		67C1139D1922133300901CA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C1139C1922133300901CA0 /* Images.xcassets */; };
 		67C113A41922133300901CA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C113A31922133300901CA0 /* XCTest.framework */; };
 		67C113A51922133300901CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C113841922133300901CA0 /* Foundation.framework */; };
@@ -36,6 +45,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		673438B51922F28800EF7020 /* TTInitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTInitViewController.h; sourceTree = "<group>"; };
+		673438B61922F28800EF7020 /* TTInitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTInitViewController.m; sourceTree = "<group>"; };
+		673438B91922F3F500EF7020 /* TTSlideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSlideMenuViewController.h; sourceTree = "<group>"; };
+		673438BA1922F3F500EF7020 /* TTSlideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSlideMenuViewController.m; sourceTree = "<group>"; };
+		673438C01922F67900EF7020 /* TTTopNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTopNavigationViewController.h; sourceTree = "<group>"; };
+		673438C11922F67900EF7020 /* TTTopNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTopNavigationViewController.m; sourceTree = "<group>"; };
+		673438C51922FEDE00EF7020 /* TTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTabBarController.h; sourceTree = "<group>"; };
+		673438C61922FEDE00EF7020 /* TTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTabBarController.m; sourceTree = "<group>"; };
+		673438C81923000D00EF7020 /* TTTabBarItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTabBarItemViewController.h; sourceTree = "<group>"; };
+		673438C91923000D00EF7020 /* TTTabBarItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTabBarItemViewController.m; sourceTree = "<group>"; };
+		673438CB1923018200EF7020 /* TTTopNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTopNavigationBar.h; sourceTree = "<group>"; };
+		673438CC1923018200EF7020 /* TTTopNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTopNavigationBar.m; sourceTree = "<group>"; };
+		673438D21923095800EF7020 /* TTTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTimeTableViewController.h; sourceTree = "<group>"; };
+		673438D31923095800EF7020 /* TTTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTimeTableViewController.m; sourceTree = "<group>"; };
+		673438D5192309AC00EF7020 /* TTAssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAssignmentViewController.h; sourceTree = "<group>"; };
+		673438D6192309AC00EF7020 /* TTAssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAssignmentViewController.m; sourceTree = "<group>"; };
+		673438D8192309E300EF7020 /* TTMemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMemoViewController.h; sourceTree = "<group>"; };
+		673438D9192309E300EF7020 /* TTMemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMemoViewController.m; sourceTree = "<group>"; };
+		673438DB192309FA00EF7020 /* TTTimeTableSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTimeTableSettingViewController.h; sourceTree = "<group>"; };
+		673438DC192309FA00EF7020 /* TTTimeTableSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTimeTableSettingViewController.m; sourceTree = "<group>"; };
 		67C113811922133300901CA0 /* TimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C113841922133300901CA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		67C113861922133300901CA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,8 +76,6 @@
 		67C113931922133300901CA0 /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
 		67C113941922133300901CA0 /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
 		67C113971922133300901CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		67C113991922133300901CA0 /* TTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTViewController.h; sourceTree = "<group>"; };
-		67C1139A1922133300901CA0 /* TTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTViewController.m; sourceTree = "<group>"; };
 		67C1139C1922133300901CA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		67C113A21922133300901CA0 /* TimeTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C113A31922133300901CA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -85,6 +112,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		673438B81922F3AB00EF7020 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				673438B91922F3F500EF7020 /* TTSlideMenuViewController.h */,
+				673438BA1922F3F500EF7020 /* TTSlideMenuViewController.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		673438BF1922F67900EF7020 /* TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				673438C41922FE8E00EF7020 /* TabBarController */,
+				673438C01922F67900EF7020 /* TTTopNavigationViewController.h */,
+				673438C11922F67900EF7020 /* TTTopNavigationViewController.m */,
+				673438CB1923018200EF7020 /* TTTopNavigationBar.h */,
+				673438CC1923018200EF7020 /* TTTopNavigationBar.m */,
+			);
+			path = TimeTable;
+			sourceTree = "<group>";
+		};
+		673438C31922FAA100EF7020 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		673438C41922FE8E00EF7020 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				673438CE1923093E00EF7020 /* Assignment */,
+				673438CF1923093E00EF7020 /* Memo */,
+				673438D01923093E00EF7020 /* TimeTable */,
+				673438D11923093E00EF7020 /* TimeTableSetting */,
+				673438C51922FEDE00EF7020 /* TTTabBarController.h */,
+				673438C61922FEDE00EF7020 /* TTTabBarController.m */,
+				673438C81923000D00EF7020 /* TTTabBarItemViewController.h */,
+				673438C91923000D00EF7020 /* TTTabBarItemViewController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		673438CE1923093E00EF7020 /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				673438D5192309AC00EF7020 /* TTAssignmentViewController.h */,
+				673438D6192309AC00EF7020 /* TTAssignmentViewController.m */,
+			);
+			path = Assignment;
+			sourceTree = "<group>";
+		};
+		673438CF1923093E00EF7020 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				673438D8192309E300EF7020 /* TTMemoViewController.h */,
+				673438D9192309E300EF7020 /* TTMemoViewController.m */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		673438D01923093E00EF7020 /* TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				673438D21923095800EF7020 /* TTTimeTableViewController.h */,
+				673438D31923095800EF7020 /* TTTimeTableViewController.m */,
+			);
+			path = TimeTable;
+			sourceTree = "<group>";
+		};
+		673438D11923093E00EF7020 /* TimeTableSetting */ = {
+			isa = PBXGroup;
+			children = (
+				673438DB192309FA00EF7020 /* TTTimeTableSettingViewController.h */,
+				673438DC192309FA00EF7020 /* TTTimeTableSettingViewController.m */,
+			);
+			path = TimeTableSetting;
+			sourceTree = "<group>";
+		};
 		67C113781922133300901CA0 = {
 			isa = PBXGroup;
 			children = (
@@ -118,16 +224,15 @@
 		67C1138A1922133300901CA0 /* TimeTable */ = {
 			isa = PBXGroup;
 			children = (
-				67C113BC1922148300901CA0 /* ViewControllers */,
 				67C113BB1922147600901CA0 /* Externals */,
 				67C113BA1922146D00901CA0 /* CoreData */,
 				67C113B91922146300901CA0 /* Common */,
+				67C113BC1922148300901CA0 /* ViewControllers */,
 				67C113931922133300901CA0 /* TTAppDelegate.h */,
 				67C113941922133300901CA0 /* TTAppDelegate.m */,
 				67C113961922133300901CA0 /* Main.storyboard */,
-				67C113991922133300901CA0 /* TTViewController.h */,
-				67C1139A1922133300901CA0 /* TTViewController.m */,
 				67C1139C1922133300901CA0 /* Images.xcassets */,
+				673438C31922FAA100EF7020 /* Resource */,
 				67C1138B1922133300901CA0 /* Supporting Files */,
 			);
 			path = TimeTable;
@@ -187,6 +292,10 @@
 		67C113BC1922148300901CA0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				673438BF1922F67900EF7020 /* TimeTable */,
+				673438B81922F3AB00EF7020 /* Menu */,
+				673438B51922F28800EF7020 /* TTInitViewController.h */,
+				673438B61922F28800EF7020 /* TTInitViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -300,11 +409,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				673438D41923095800EF7020 /* TTTimeTableViewController.m in Sources */,
+				673438B71922F28800EF7020 /* TTInitViewController.m in Sources */,
 				67C113C31922199600901CA0 /* UIImage+ImageWithUIView.m in Sources */,
+				673438DD192309FA00EF7020 /* TTTimeTableSettingViewController.m in Sources */,
+				673438C21922F67900EF7020 /* TTTopNavigationViewController.m in Sources */,
+				673438CD1923018200EF7020 /* TTTopNavigationBar.m in Sources */,
 				67C113951922133300901CA0 /* TTAppDelegate.m in Sources */,
+				673438CA1923000D00EF7020 /* TTTabBarItemViewController.m in Sources */,
+				673438D7192309AC00EF7020 /* TTAssignmentViewController.m in Sources */,
+				673438BB1922F3F500EF7020 /* TTSlideMenuViewController.m in Sources */,
 				67C113C21922199600901CA0 /* ECSlidingViewController.m in Sources */,
 				67C113911922133300901CA0 /* main.m in Sources */,
-				67C1139B1922133300901CA0 /* TTViewController.m in Sources */,
+				673438C71922FEDE00EF7020 /* TTTabBarController.m in Sources */,
+				673438DA192309E300EF7020 /* TTMemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +627,7 @@
 				67C113B51922133300901CA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67C113B61922133300901CA0 /* Build configuration list for PBXNativeTarget "TimeTableTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +636,7 @@
 				67C113B81922133300901CA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
